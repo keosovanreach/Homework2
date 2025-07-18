@@ -1,11 +1,7 @@
 body {
   font-family: "Times New Roman", Times, serif;
   margin: auto;
-  background-image: url(3.jpg);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: right;
-  /* background: rgb(165, 165, 240); */
+  background: rgb(165, 165, 240); 
 }
 header {
   background: rgba(0, 0, 255, 0.282);
