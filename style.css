@@ -1,21 +1,14 @@
-@media (min-width: 1200px) {
-  body {
-    margin: 0;
-    padding: 20px;
-    background-color: rgb(16, 199, 235);
-  }
-  .container {
-    max-width: 600px;
-    margin: 0 auto;
-    background: rgb(228, 234, 235);
-    padding: 20px;
-  }
+body {
+  margin: 0;
+  /* padding: 20px; */
 }
+
 header {
   background: rgba(0, 0, 255, 0.864);
   text-align: center;
   color: aliceblue;
   padding: 5px;
+  text-shadow: 2px 2px 8px red;
 }
 .Start {
   border: 1px solid;
@@ -28,10 +21,11 @@ header {
   color: blue;
 }
 .main1 {
-  background: rgba(234, 228, 228, 0.515);
+  background: rgba(211, 145, 145, 0.515);
   border-radius: 5px;
   margin: 24px;
   padding: 5px;
+  box-shadow: 2px 3px;
 }
 .Why {
   color: blue;
@@ -48,23 +42,25 @@ ul li {
   margin-right: 30px;
   padding: 10px;
 }
-@media (min-width: 1200px) {
-  .img1 {
-    margin: 0;
-    padding: 20px;
-    display: flex;
-  }
+
+.img1 {
+  margin: 0;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
 }
+
 .Explor {
   color: rgb(1, 13, 7);
   font-size: large;
 }
 img {
-  border-radius: 5%;
+  width: 200px;
 }
 .name {
   background: rgba(191, 158, 224, 0.897);
-  padding: 24px;
+  padding: 24px 2px;
   margin-top: 20px;
 }
 h3 {
